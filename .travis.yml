@@ -6,11 +6,11 @@ branches:
   - master
 sudo: required
 before_script:
-  - npm install grunt-cli -g
-  - gem install compass
+- npm install grunt-cli -g
+- gem install compass
 install:
-  - npm install
-  - bower install
+- npm install
+- bower install
 deploy:
   provider: codedeploy
   access_key_id: AKIAJQ265ZZOT7HY4LLQ
@@ -22,4 +22,4 @@ deploy:
   on:
     repo: mauriciofs/PlayOn-Weather
   secret_access_key:
-    secure: YHsg5mxVn8FivLjv7tFfCtjTFEAaqZrEoQ5GzQXNCVj2yfgS+xftkWeF77BFiCUAlEnM2epAsLwDE5oT4ADSWRejz2g+B2ya/xiIgOjoNERDkhDw/Fu99XNBmDA9GIlgX0nDIRX5DauBorW/9dXgV0ZVIJnG0E+pJAu9vmPVOkvbUHma4X8YJ+tn34Xh6Nx/AkMDy7skd36H/sQOEKh2DFLEoynNHUub5tAZ749+2s9KAR5yIlNOPpfmH1ll4NLVPKKR3ZXHNUFD8Dy3SqCaG34FIc0JP3H1jakj4ECrgzvldRAYvljFLBg1kEhxStpP91UKj3l2OnH6soBOrzu6r90s5ud7Qktr7cL4f5Y4GR+Oo55EE7DmMX6LaNKLLKAvRcilY2n/wHmLQFx9ZlNjbXrZXe3Y1h7n2PrcSvVJ8CzJ4+iDUXwOgImWXhmYDKhSlAPW1DF89pXb5IiBq0EVGNgerRRZywDoN4WsM9aZStZ2NY5klPkKLjW6TEkqr/q2/ShJaannTTvfO7vZtHs7Dd/w8esPPoMFp2DlmKFiygdO1p/7QtSMTflt8/zJI0XiYoc5AVMACmrC2/gsh7f4teUJMrTBC/IPdB3PWm5OhbNE0q7PwluQCFWcTXqouOP2k1lG7stkCNVCLbxoR6UCRryjHUnC+qsQS7eTWVh7L8c=
+    secure: VRTCdRs2G0fITs42Pv5ir7hNVGkKuvIP95Wqv48MI0rUVL7nLNZI/3PZiZtkh7dtpKRwurdmHCXTCtOyveU6P4AZG38rMTPg2jcyAJuDFGjVWpRqbcI4xmX1wsFUvmQBAgzaCHrRCJoomgc5TgKSM0PQah1M/Z5NRVhJ9BNwLbkrchUdDLrigSzzzVLp8WFbXao6dbL8YfUxazCr4dCeoHkVWvppP7RKOMkrVK2M662Kr/0O+VWBciKZziKjUUabP/PX2s4Dsu2msfK6Bn/f7y7EWvPg1a+1v4TBhxSSLHgnnYMD0RxG/dNg+ub7asgeeOL2cqyI7eOKQRtYdHHb0EgFkp+9PFD3L0aOU5NIwWAkqHb9mgUHH9EGByxgZsCoA7azgQREh6XTrE/i89a2LOYrwC20bdP5nmxpsht1E+KEwKOcoaA81/XlfzpHa60pHCzo9Wu4cSWWVYIQyI4Y5CpqZeLOKPnID4zl/r7tzuwxz+bVjyWE5sQg2XcQgBjJx9mlGBpc8oEBbst4R7gNxUOIAtd+1yYJEaSXGyHA0Y6nuwiBONsCy28cNTy5SWGLN1/lNqAGHlLvaKMZW0gXuHYusFBSJmB+cIkckn4G8U1s0q4VfmBQ8VvZWcDsvl2ZesmR98LGs+8SlyshP1SqP2ciSDWq65K6J9Vv8hIVJ+g=
