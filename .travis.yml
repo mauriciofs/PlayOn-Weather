@@ -5,6 +5,8 @@ branches:
   only:
   - master
 sudo: required
+before_script:
+  - npm install grunt-cli -g
 deploy:
   provider: codedeploy
   access_key_id: AKIAJQ265ZZOT7HY4LLQ
